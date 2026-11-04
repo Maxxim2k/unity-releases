@@ -1,8 +1,8 @@
 track=test
-version=4.0.1
-installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.1/Unity_4.0.1_installer.exe
-installer_sha256=e008449fe3c4faac58f8254ce95a59128e1a276debc34756e83cd9e27e8730b5
-installer_size=39077788
+version=4.0.3
+installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.3/Unity_4.0.3_installer.exe
+installer_sha256=5968c78281c919d8d7ce1930621e34e28fa25dc4546681b3b4e2ca4154c3c3db
+installer_size=39080877
 min_firmware=3.5.0
 firmware_version=
 firmware_url=
@@ -11,4 +11,4 @@ firmware_sha256=
 Compatible with firmware >= 3.5.x (no wire-protocol changes).
 
 ##### Changed:
-- Test release that proves the Software update button from start to finish. Tank behavior is unchanged.
+- Test release that proves the Software update button on a PC running 4.0.2. Tank behavior is unchanged.
