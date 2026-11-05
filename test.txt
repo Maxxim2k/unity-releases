@@ -1,8 +1,8 @@
 track=test
-version=4.0.5
-installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.5/Unity_4.0.5_installer.exe
-installer_sha256=444a2377e38713075bd85ce0ee8bd4333bac1e7707382dacf2c8d4de4b206424
-installer_size=39082726
+version=4.0.6
+installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.6/Unity_4.0.6_installer.exe
+installer_sha256=a23aef39e624c14cf574e117181d9ff75b6580a25fbc86e2c883dbf84d0a8c92
+installer_size=39082719
 min_firmware=3.5.0
 firmware_version=
 firmware_url=
@@ -11,4 +11,4 @@ firmware_sha256=
 Compatible with firmware >= 3.5.x (no wire-protocol changes).
 
 ##### Changed:
-- The version of Unity now shows at the top of the System Dashboard and the System Configuration page.
+- The Update & Configure button in System Configuration is now called Network & Firmware, which says what it opens. It works the same way.
