@@ -1,8 +1,8 @@
 track=test
-version=4.0.4
-installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.4/Unity_4.0.4_installer.exe
-installer_sha256=ff111f19382334cad9a4e43d9d1d078e1f0763a961962a40a8de0633bf12259d
-installer_size=39082701
+version=4.0.5
+installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.5/Unity_4.0.5_installer.exe
+installer_sha256=444a2377e38713075bd85ce0ee8bd4333bac1e7707382dacf2c8d4de4b206424
+installer_size=39082726
 min_firmware=3.5.0
 firmware_version=
 firmware_url=
@@ -10,13 +10,5 @@ firmware_sha256=
 
 Compatible with firmware >= 3.5.x (no wire-protocol changes).
 
-##### Added:
-- A warning now pops up when a tank's temperature probe stops reading. The tank shows 9.9°F and will not heat. The warning tells staff to power-cycle the tank.
-
 ##### Changed:
-- Software update: progress now shows in a small window, not the full screen.
-
-##### Fixed:
-- Unity no longer shuts down when a tank can't read a music folder. That folder shows empty and the other folders load as normal.
-- Long music folders no longer get mixed into the folder list.
-- The alert beep now stops by itself when the last alert clears. A new fault still beeps, even after an earlier acknowledge.
+- The version of Unity now shows at the top of the System Dashboard and the System Configuration page.
