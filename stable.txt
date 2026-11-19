@@ -1,0 +1,20 @@
+track=stable
+version=4.0.16
+installer_url=https://github.com/Maxxim2k/unity-releases/releases/download/v4.0.16/Unity_4.0.16_installer.exe
+installer_sha256=84dc4674deb816f4477f5e6319076a67711a180bfbba17db2788badcb4ae8fbe
+installer_size=42031872
+min_firmware=3.5.0
+firmware_version=
+firmware_url=
+firmware_sha256=
+
+Compatible with firmware >= 3.5.x (no wire-protocol changes).
+
+##### Changed:
+- Dashboard cards and the self-serve tile: the state badge (READY, FLOATING and so on) now sits to the right of the tank name.
+- Light, audio and volume bubbles at the top of every dashboard card, the self-serve tile and the tank page, the same size as the state badge: LIGHT ON / LIGHT OFF always, and AUDIO PLAYING with VOLUME MUTE / LOW / MEDIUM / HIGH while music plays in a session. The small light and audio chips under the tank picture are gone.
+- Float time and temperature rows show the unit with the label ("Float time (min)", "Float temperature (°F)") instead of inside the number box, on the dashboard and the tank page.
+
+##### Fixed:
+- During the intro track the card no longer shows a wrong "5 min remaining". The tank does not count down in the intro or exit track; the card now says "float starts after the intro" or "exit music playing", and the tank page's TIME LEFT shows a dash.
+- TURN LIGHT ON / OFF on the dashboard now says "TURNING LIGHT ON…" / "TURNING LIGHT OFF…" until the tank reports the change (8 seconds at most), and the LIGHT ON / OFF bubble shows the light's state.
